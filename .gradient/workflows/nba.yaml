@@ -31,8 +31,8 @@ jobs:
     uses: script@v1
     with:
       script: |-
-        ls /inputs/nba
+        cd /inputs/nba
         #cd /NBA-Machine-Learning-Sports-Betting
-        #pip3 install -r requirements.txt
-        #python3 main.py -xgb
+        pip3 install -r requirements.txt
+        python3 main.py -xgb
       image: pytorch/pytorch:latest
