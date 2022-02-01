@@ -31,8 +31,7 @@ jobs:
     uses: script@v1
     with:
       script: |-
-        ls
-        ls /
+        ls /inputs/nba
         #cd /NBA-Machine-Learning-Sports-Betting
         #pip3 install -r requirements.txt
         #python3 main.py -xgb
