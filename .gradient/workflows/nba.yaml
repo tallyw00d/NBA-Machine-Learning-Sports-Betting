@@ -6,7 +6,7 @@ on:
 jobs:
   CloneRepo:
     resources:
-      instance-type: C3
+      instance-type: C4
     outputs:
      nba:
         type: volume
